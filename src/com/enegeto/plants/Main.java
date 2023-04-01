@@ -1,4 +1,4 @@
-/** Domácí úkol lekce 5: Pokojové rostliny
+/*  Domácí úkol lekce 5: Pokojové rostliny
   * Zadání
   *     Vytvoř datové třídy pro sledování zalévání domácích pokojových rostlin.
  *     Případné chybové stavy ošetři pomocí výjimek.
@@ -10,8 +10,8 @@ package com.enegeto.plants;
 
 import java.time.LocalDate;
 
-import static com.enegeto.plants.Plant.keyboardRead;
 import static com.enegeto.plants.PlantList.printParticularPlant;
+import static com.enegeto.plants.Support.keyboardRead;
 
 public class Main {
     public static void main(String[] args) throws PlantException {
@@ -35,15 +35,14 @@ public class Main {
         System.out.println("Size of your garden is now " + plantList.getSize() + " plants" + "\n---------------");
         plantList.printPlantList();
 
-/** Getting a particular plant on certain position in a list
- */
+
 
         printParticularPlant(plantList.getPosition(keyboardRead(plantList)));
         System.out.println("---------------");
 
 
-/** Add data form a file
- */
+
+
         try {
             plantList.addDataFromFile(Settings.FILENAME);
         } catch (PlantException e) {
@@ -52,8 +51,7 @@ public class Main {
         }
 
 
-/** Printing data about watering
-*/
+
         plantList.printPlantListWatering();
         System.out.println("-------------------");
 
@@ -62,18 +60,15 @@ public class Main {
 
         plantList.removePlant(plantList.getPosition(3));
 
-/** Saving data into a file
- */
+
         try {
             plantList.addDataIntoFile(Settings.OUTPUT_FILENAME);
         } catch (PlantException e){
             System.err.println(e.getLocalizedMessage());
         }
 
-/** Getting data from a file
- */
+
         try {
-            // plantList.c - vymazání
             plantList.addDataFromFile(Settings.FILENAME);
         } catch (PlantException e) {
             System.err.println(e.getLocalizedMessage());
@@ -84,5 +79,8 @@ public class Main {
 
 
     }
+
+
+
 
 }

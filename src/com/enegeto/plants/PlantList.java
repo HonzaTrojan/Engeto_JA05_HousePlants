@@ -9,21 +9,13 @@ import java.util.Scanner;
 
 
 public class PlantList {
-    /**Vytvoření seznamu květin
-     *Vytvoř třídu pro ukládání seznamu pokojových květin. Jako atribut bude mít kolekci, uchovávající objekty s informacemi o květinách.
-     * Přidej metody pro přidání nové květiny, získání květiny na zadaném indexu a odebrání květiny ze seznamu.
-     */
+
     List<Plant> plantList = new ArrayList<>();
 
 
     ///region Methods
 
-    /**Ošetření nesprávného vstupu
-     *Ošetři zadávání frekvence zálivky — pokud je parametrem 0 nebo záporné číslo, systém vyhodí výjimku třídy PlantException s vhodným popisem.
-     *Obdobně ošetřete zadávání data poslední zálivky — nesmí být starší než datum zasazení rostliny.
-     * @param plant
-     * @throws PlantException
-     */
+
     public void addPlant(Plant plant) throws PlantException {
         if (plant.getFrequencyOfWatering() <= 0){
             throw new PlantException("The frequency of watering is smaller or equal to zero!!!");
@@ -73,19 +65,18 @@ public class PlantList {
     }
 
 
-    /** Method for loading data from a file
-     */
+
 
     public void addDataFromFile (String filename) throws PlantException {
         int lineNumber = 0;
-        String[] items = new String[0];
+        String[] items;
         String line = "";
 
         try (Scanner scanner = new Scanner(new BufferedReader(new FileReader(filename)))) {
             while (scanner.hasNextLine()) {
                 lineNumber++;
                 line = scanner.nextLine();
-                items = line.split("\t");
+                items = line.split(Settings.DELIMITER);
                 Plant plant = new Plant(items[0], items[1], LocalDate.parse(items[4]),
                         LocalDate.parse(items[3]), Integer.parseInt(items[2]));
 
@@ -103,8 +94,7 @@ public class PlantList {
         }
     }
 
-        /** Method for saving data form list into a file
-         */
+
 
         public void addDataIntoFile (String filename) throws PlantException {
             // int lineNumber = (int) FILENAME.lines().count();
@@ -112,8 +102,8 @@ public class PlantList {
 
             try (PrintWriter outputWriter = new PrintWriter(new BufferedWriter(new FileWriter(filename)))) {
                 for (Plant plant : plantList){
-                    line = plant.getName() + "\t" + plant.getNotes() + "\t" + plant.getFrequencyOfWatering() + "\t" +
-                            plant.getWatering() + "\t" + plant.getPlanted();
+                    line = plant.getName() + Settings.DELIMITER + plant.getNotes() + Settings.DELIMITER + plant.getFrequencyOfWatering() +
+                            Settings.DELIMITER + plant.getWatering() + Settings.DELIMITER + plant.getPlanted();
 
                     outputWriter.println(line);
                     }
@@ -125,8 +115,7 @@ public class PlantList {
 
 
 
-        /** Method for encapsulation of the list
-         */
+
             public List<Plant> getList(){
                 return new ArrayList<>(plantList);
             }
