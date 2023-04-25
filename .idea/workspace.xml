@@ -8,10 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/enegeto/plants/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/enegeto/plants/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/enegeto/plants/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/enegeto/plants/Plant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/enegeto/plants/PlantException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/enegeto/plants/PlantException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/enegeto/plants/PlantList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/enegeto/plants/PlantList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/enegeto/plants/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/enegeto/plants/Settings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/enegeto/plants/Support.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/enegeto/plants/Support.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Programy/Programovani/Workspace/IntelliJ IDEA/Engeto - Java akademie/Engeto_JA05_ukol - Pokojove rostliny&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Programy/Programovani/Workspace/IntelliJ IDEA/Engeto - Java akademie/Engeto_JA05_ukol - Pokojove rostliny"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Programy\Programovani\Workspace\IntelliJ IDEA\Engeto - Java akademie\Engeto_JA05_ukol - Pokojove rostliny" />
@@ -86,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680015802550</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Processed the notes of Martin&#10;1) Method keyboardRead moved from class Plant to class Support&#10;2) Constructors in class Plant moved above methods&#10;3) Deleted initialization of String field &quot;items&quot; during declaration&#10;4) Definition of data delimiter in Settings class">
+      <created>1680373416981</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680373416981</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

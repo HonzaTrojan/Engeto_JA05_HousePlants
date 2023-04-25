@@ -9,6 +9,7 @@
 package com.enegeto.plants;
 
 import java.time.LocalDate;
+import java.util.Collections;
 
 import static com.enegeto.plants.PlantList.printParticularPlant;
 import static com.enegeto.plants.Support.keyboardRead;
@@ -74,7 +75,17 @@ public class Main {
             System.err.println(e.getLocalizedMessage());
         }
 
+        System.out.println("Print before sorting:");
         plantList.printPlantList();
+        System.out.println("-------------------");
+
+
+
+        Collections.sort(plantList);         // ?????
+
+
+
+
 
 
 
