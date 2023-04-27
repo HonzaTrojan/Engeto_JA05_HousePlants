@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b25f69f9-e554-4668-99b2-debc0534f194" name="Changes" comment="Tasks of 6th class no.1&#10;- added method sortList into PlantList class to sort Plant class instances by name">
-      <change afterPath="$PROJECT_DIR$/src/com/enegeto/plants/PlantWateringComparator.java" afterDir="false" />
+    <list default="true" id="b25f69f9-e554-4668-99b2-debc0534f194" name="Changes" comment="Tasks of 6th class no.2&#10;- added method sortByWatering into PlantList class to sort Plant class instances by date of watering">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/enegeto/plants/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/enegeto/plants/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/enegeto/plants/PlantList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/enegeto/plants/PlantList.java" afterDir="false" />
     </list>
@@ -103,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682608513852</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tasks of 6th class no.2&#10;- added method sortByWatering into PlantList class to sort Plant class instances by date of watering">
+      <created>1682609475040</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682609475040</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +141,7 @@
     <MESSAGE value="Processed the notes of Martin&#10;1) Method keyboardRead moved from class Plant to class Support&#10;2) Constructors in class Plant moved above methods&#10;3) Deleted initialization of String field &quot;items&quot; during declaration&#10;4) Definition of data delimiter in Settings class" />
     <MESSAGE value="Tasks of 6th class&#10;- few questions for Martin before we start&#10;- problem with no working code of Collection interface" />
     <MESSAGE value="Tasks of 6th class no.1&#10;- added method sortList into PlantList class to sort Plant class instances by name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tasks of 6th class no.1&#10;- added method sortList into PlantList class to sort Plant class instances by name" />
+    <MESSAGE value="Tasks of 6th class no.2&#10;- added method sortByWatering into PlantList class to sort Plant class instances by date of watering" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tasks of 6th class no.2&#10;- added method sortByWatering into PlantList class to sort Plant class instances by date of watering" />
   </component>
 </project>

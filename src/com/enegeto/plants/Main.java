@@ -9,10 +9,7 @@
 package com.enegeto.plants;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 import static com.enegeto.plants.PlantList.printParticularPlant;
 import static com.enegeto.plants.Support.keyboardRead;
@@ -92,6 +89,11 @@ public class Main {
         plantList.sortByWatering();
         plantList.printPlantList();
         System.out.println("-------------------");
+
+        System.out.println("Dates of flowers planting: ");
+        Set<LocalDate> setPlanted = new HashSet<>();
+        setPlanted = plantList.getDatePlanted();
+        System.out.println(setPlanted);
 
 
 

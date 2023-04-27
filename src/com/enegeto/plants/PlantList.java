@@ -122,10 +122,20 @@ public class PlantList {
     }
 
 
+        public Set<LocalDate> getDatePlanted(){
+        Set<LocalDate> setOfPlanting = new HashSet<>();
+        int size = plantList.size();
+        for (int i = 0 ; i < size; i++){
+            setOfPlanting.add(plantList.get(i).getPlanted());
+        }
+            return setOfPlanting;
+        }
 
             public List<Plant> getList(){
                 return new ArrayList<>(plantList);
             }
+
+
 
 
 
