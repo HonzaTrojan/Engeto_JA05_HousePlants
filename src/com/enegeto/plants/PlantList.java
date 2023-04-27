@@ -112,9 +112,15 @@ public class PlantList {
 
 
         public List<Plant> sortList (){
-        Collections.sort(plantList);
+            Collections.sort(plantList);
             return plantList;
         }
+
+        public List<Plant> sortByWatering (){
+            Collections.sort(plantList, (o1, o2) -> o1.getWatering().compareTo(o2.getWatering()));
+            return plantList;
+    }
+
 
 
             public List<Plant> getList(){

@@ -83,11 +83,15 @@ public class Main {
         System.out.println("-------------------");
 
 
-        System.out.println("Print after sorting:");
+        System.out.println("Print after sorting by name:");
         plantList.sortList();
         plantList.printPlantList();
         System.out.println("-------------------");
 
+        System.out.println("Print after sorting by date of watering:");
+        plantList.sortByWatering();
+        plantList.printPlantList();
+        System.out.println("-------------------");
 
 
 
