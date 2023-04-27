@@ -9,7 +9,10 @@
 package com.enegeto.plants;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
+import java.util.List;
 
 import static com.enegeto.plants.PlantList.printParticularPlant;
 import static com.enegeto.plants.Support.keyboardRead;
@@ -80,8 +83,11 @@ public class Main {
         System.out.println("-------------------");
 
 
+        System.out.println("Print after sorting:");
+        plantList.sortList();
+        plantList.printPlantList();
+        System.out.println("-------------------");
 
-        Collections.sort(plantList);         // ?????
 
 
 

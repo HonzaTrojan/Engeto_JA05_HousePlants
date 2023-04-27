@@ -3,10 +3,7 @@ package com.enegeto.plants;
 import java.io.*;
 import java.time.DateTimeException;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 
 public class PlantList {
@@ -114,7 +111,10 @@ public class PlantList {
         }
 
 
-
+        public List<Plant> sortList (){
+        Collections.sort(plantList);
+            return plantList;
+        }
 
 
             public List<Plant> getList(){

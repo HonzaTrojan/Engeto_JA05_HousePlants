@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b25f69f9-e554-4668-99b2-debc0534f194" name="Changes" comment="Processed the notes of Martin&#10;1) Method keyboardRead moved from class Plant to class Support&#10;2) Constructors in class Plant moved above methods&#10;3) Deleted initialization of String field &quot;items&quot; during declaration&#10;4) Definition of data delimiter in Settings class">
+    <list default="true" id="b25f69f9-e554-4668-99b2-debc0534f194" name="Changes" comment="Tasks of 6th class&#10;- few questions for Martin before we start&#10;- problem with no working code of Collection interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/enegeto/plants/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/enegeto/plants/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/enegeto/plants/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/enegeto/plants/Plant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/enegeto/plants/PlantList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/enegeto/plants/PlantList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680373416981</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tasks of 6th class&#10;- few questions for Martin before we start&#10;- problem with no working code of Collection interface">
+      <created>1682449463940</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682449463940</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First version of project" />
     <MESSAGE value="Processed the notes of Martin&#10;1) Method keyboardRead moved from class Plant to class Support&#10;2) Constructors in class Plant moved above methods&#10;3) Deleted initialization of String field &quot;items&quot; during declaration&#10;4) Definition of data delimiter in Settings class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Processed the notes of Martin&#10;1) Method keyboardRead moved from class Plant to class Support&#10;2) Constructors in class Plant moved above methods&#10;3) Deleted initialization of String field &quot;items&quot; during declaration&#10;4) Definition of data delimiter in Settings class" />
+    <MESSAGE value="Tasks of 6th class&#10;- few questions for Martin before we start&#10;- problem with no working code of Collection interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tasks of 6th class&#10;- few questions for Martin before we start&#10;- problem with no working code of Collection interface" />
   </component>
 </project>
