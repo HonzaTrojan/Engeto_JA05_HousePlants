@@ -57,7 +57,7 @@ public class Main {
         System.out.println("-------------------");
 
         plantList.addPlant(new Plant("Horsetail", "From prehistoric times", LocalDate.of(100, 1, 6), LocalDate.of(1950, 6, 17), (26645)));
-        plantList.addPlant(new Plant("Eucalypt", "Not for eating!", LocalDate.of(2019, 7, 13), LocalDate.of(2023, 3, 20), (21)));
+        plantList.addPlant(new Plant("Eucalypt", "Not for eating!", LocalDate.now().minusDays(20), LocalDate.now().minusDays(10), (21)));
 
         plantList.removePlant(plantList.getPosition(3));
 
@@ -94,6 +94,12 @@ public class Main {
         Set<LocalDate> setPlanted = new HashSet<>();
         setPlanted = plantList.getDatePlanted();
         System.out.println(setPlanted);
+
+        System.out.println("Dates of flowers planting last month: ");
+        Set<LocalDate> setPlantedLastMonth = new HashSet<>();
+        setPlantedLastMonth = plantList.getDatePlantedLastMonth();
+        System.out.println(setPlantedLastMonth);
+
 
 
 

@@ -130,6 +130,17 @@ public class PlantList {
         }
             return setOfPlanting;
         }
+        public Set<LocalDate> getDatePlantedLastMonth(){
+        Set<LocalDate> setOfPlanting = new HashSet<>();
+        int size = plantList.size();
+        for (int i = 0 ; i < size; i++){
+            LocalDate dateOfPlanting = plantList.get(i).getPlanted();
+            if (dateOfPlanting.isAfter(LocalDate.now().minusMonths(1))) {
+                setOfPlanting.add(dateOfPlanting);
+            }
+        }
+            return setOfPlanting;
+        }
 
             public List<Plant> getList(){
                 return new ArrayList<>(plantList);
