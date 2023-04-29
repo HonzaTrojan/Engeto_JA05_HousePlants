@@ -100,9 +100,10 @@ public class Main {
         setPlantedLastMonth = plantList.getDatePlantedLastMonth();
         System.out.println(setPlantedLastMonth);
 
-
-
-
+        System.out.println("Print after sorting by frequency of watering (comparator class):");
+        plantList.sortByFrequencyOfWatering();
+        plantList.printPlantList();
+        System.out.println("-------------------");
 
 
 

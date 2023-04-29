@@ -121,6 +121,11 @@ public class PlantList {
             return plantList;
     }
 
+        public List<Plant> sortByFrequencyOfWatering (){
+            Collections.sort(plantList, new FrequencyOfWateringComparator());
+            return plantList;
+        }
+
 
         public Set<LocalDate> getDatePlanted(){
         Set<LocalDate> setOfPlanting = new HashSet<>();

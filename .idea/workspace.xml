@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b25f69f9-e554-4668-99b2-debc0534f194" name="Changes" comment="Tasks of 6th class no.3&#10;- added method getDatePlanted into PlantList class to write out all dates of planting">
+    <list default="true" id="b25f69f9-e554-4668-99b2-debc0534f194" name="Changes" comment="Tasks of 6th class no.4&#10;- added method getDatePlantedLastMonth into PlantList class to write out all dates of planting last month">
+      <change afterPath="$PROJECT_DIR$/src/com/enegeto/plants/FrequencyOfWateringComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/enegeto/plants/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/enegeto/plants/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/enegeto/plants/PlantList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/enegeto/plants/PlantList.java" afterDir="false" />
     </list>
@@ -116,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682614679677</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Tasks of 6th class no.4&#10;- added method getDatePlantedLastMonth into PlantList class to write out all dates of planting last month">
+      <created>1682660790630</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682660790630</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +158,7 @@
     <MESSAGE value="Tasks of 6th class no.1&#10;- added method sortList into PlantList class to sort Plant class instances by name" />
     <MESSAGE value="Tasks of 6th class no.2&#10;- added method sortByWatering into PlantList class to sort Plant class instances by date of watering" />
     <MESSAGE value="Tasks of 6th class no.3&#10;- added method getDatePlanted into PlantList class to write out all dates of planting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tasks of 6th class no.3&#10;- added method getDatePlanted into PlantList class to write out all dates of planting" />
+    <MESSAGE value="Tasks of 6th class no.4&#10;- added method getDatePlantedLastMonth into PlantList class to write out all dates of planting last month" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tasks of 6th class no.4&#10;- added method getDatePlantedLastMonth into PlantList class to write out all dates of planting last month" />
   </component>
 </project>
